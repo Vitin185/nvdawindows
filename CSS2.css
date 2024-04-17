@@ -1,0 +1,145 @@
+body,
+h1,
+h2,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(0, 9, 255, 1) 0%, rgba(0, 0, 0, 1) 100%);
+}
+
+#login {
+    height: 90px;
+    width: 110px;
+    padding-left: 10px;
+}
+
+.fundo {
+    background-size: auto;
+    width: 1000px;
+    height: 300px;
+    position: relative;
+    display: inline-block;
+}
+
+header {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(1, 0, 41, 1) 49%, rgba(4, 0, 255, 1) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+}
+
+nav ul li a:hover {
+    line-gap-override: 1.6;
+    scale: (1.5);
+    transition: 0.3s;
+    background-color: #fff;
+    color: black;
+    background-size: 150px;
+    font-size: 20px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+section {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    width: 1200px;
+    height: 450px;
+}
+
+img#lgevo {
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    padding-left: 400px;
+}
+
+.para {
+    width: 650px;
+    padding-right: 600px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 18, 255, 1) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 70%);
+}
+
+.fundo{
+    background: rgb(0, 0, 0);
+    background: radial-gradient(circle, rgba(0, 0, 0, 1) 0%, rgba(0, 18, 255, 1) 100%);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 70%);
+}
+
+iframe {
+    border-radius: 25px;
+    width: 500px;
+    height: 400px;
+}
+
+ul img {
+    width: 300px;
+    height: 300px;
+    border: solid 5px;
+    border-radius: 5px;
+}
+
+ul img {
+    width: 300px;
+    height: 300px;
+    border: solid 5px;
+    border-radius: 5px;
+}
